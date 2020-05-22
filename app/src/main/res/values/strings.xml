@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Love Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="t_t_ttext_t_t_t">\t\t\tTest Love\t\t\t</string>
+    <string name="real_love_test">Real Love Test</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="calculating_love">Calculating Love for,</string>
+    <string name="searching">Searching For Results. Please wait....</string>
+    <string name="feedback">Feedback</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="top_apps">Top Apps</string>
+    <string name="apps_of_day">Apps of day</string>
+    <string name="about">About</string>
+    <string name="test_love">Test Love</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="love">Your Love is Uncoditional, In dreams and in love there are no impossibilities.</string>
+    <string name="enter_your_patner_name">Enter your patner name</string>
+</resources>

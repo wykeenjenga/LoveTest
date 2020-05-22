@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_in"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/her"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/real_love_test"
+            style="@style/TextAppearance.AppCompat.Title"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_btn_2"
+            app:boxBackgroundMode="outline"
+            app:endIconDrawable="@drawable/ic_account_box_black_24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:boxBackgroundMode="outline"
+            android:background="@drawable/my_btn_2"
+            app:endIconDrawable="@drawable/ic_account_box_black_24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/other_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_patner_name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="@string/t_t_ttext_t_t_t"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/whitecolor"
+        app:sub_btn_duration="2000"
+        app:sub_btn_line_color="@color/colorAccent"
+        app:sub_btn_ripple_color="@color/colorRed"
+        app:sub_btn_tick_color="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/calc_layout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_calc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/heart"/>
+        <TextView
+            android:id="@+id/txt_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:text="@string/searching"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3092533879997488/4435117309"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/test_love"
+            android:icon="@drawable/ic_people_outline_black_24dp"
+            android:title="@string/test_love"
+            android:visible="true"/>
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="@string/feedback"/>
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/invite_friends"/>
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="@string/about"/>
+
+    </group>
+    <group>
+        <item android:title="@string/top_apps">
+            <menu>
+                <item
+                    android:id="@+id/other_apps"
+                    android:icon="@drawable/ic_trending_up_black_24dp"
+                    android:title="@string/apps_of_day"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
